@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:Sas_Bogdan_Lab2"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>

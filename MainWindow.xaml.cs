@@ -247,7 +247,7 @@ namespace Sas_Bogdan_Lab2
             else
             {
                 MessageBox.Show("Cantitatea introdusa nu este disponibila in stoc!");
-            } 
+            }
         }
 
         private void btnRemoveItem_Click(object sender, RoutedEventArgs e)
@@ -267,21 +267,21 @@ namespace Sas_Bogdan_Lab2
                         mRaisedGlazed = mRaisedGlazed - Int32.Parse(s.Substring(0,
                         s.IndexOf(" ")));
                         txtGlazedRaised.Text = mRaisedGlazed.ToString();
-                        
+
                         break;
-                    
+
                     case "Sugar":
                         mRaisedSugar = mRaisedSugar - Int32.Parse(s.Substring(0,
                         s.IndexOf(" ")));
                         txtSugarRaised.Text = mRaisedSugar.ToString();
-                        
+
                         break;
 
                     case "Chocolate":
                         mFilledChocolate = mFilledChocolate - Int32.Parse(s.Substring(0,
                         s.IndexOf(" ")));
                         txtChocolateFilled.Text = mFilledChocolate.ToString();
-                        
+
                         break;
 
                     case "Lemon":
@@ -295,7 +295,7 @@ namespace Sas_Bogdan_Lab2
                         mFilledVanilla = mFilledVanilla - Int32.Parse(s.Substring(0,
                         s.IndexOf(" ")));
                         txtVanillaFilled.Text = mFilledVanilla.ToString();
-                        
+
                         break;
                 }
             }
