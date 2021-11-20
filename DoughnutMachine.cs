@@ -72,16 +72,16 @@ namespace Sas_Bogdan_Lab2
 
             switch (Flavor)
             {
-                case DoughnutType.Glazed: Interval = 3; 
+                case DoughnutType.Glazed: Interval = 3;
                     break;
 
-                case DoughnutType.Sugar: Interval = 2; 
+                case DoughnutType.Sugar: Interval = 2;
                     break;
 
-                case DoughnutType.Lemon: Interval = 5; 
+                case DoughnutType.Lemon: Interval = 5;
                     break;
 
-                case DoughnutType.Chocolate: Interval = 7; 
+                case DoughnutType.Chocolate: Interval = 7;
                     break;
 
                 case DoughnutType.Vanilla: Interval = 4; break;
