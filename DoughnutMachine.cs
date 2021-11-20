@@ -22,7 +22,7 @@ namespace Sas_Bogdan_Lab2
             {
                 mFlavor = value;
             }
-        
+
         }
         private System.Collections.ArrayList mDoughnuts = new System.Collections.ArrayList();
         public Doughnut this[int Index]
@@ -136,9 +136,9 @@ namespace Sas_Bogdan_Lab2
 
         }
         public Doughnut(DoughnutType aFlavor) // constructor
-        {         
-            mTimeOfCreation = DateTime.Now;             
-            mFlavor = aFlavor;   
+        {
+            mTimeOfCreation = DateTime.Now;
+            mFlavor = aFlavor;
         }
     }
 
